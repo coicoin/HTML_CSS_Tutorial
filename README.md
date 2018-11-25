@@ -1,2 +1,2 @@
-# site-kinotime
-kinotime is the modern site of movies and serials
+# site-kinomonster
+kinomonster is the modern site of movies and serials
