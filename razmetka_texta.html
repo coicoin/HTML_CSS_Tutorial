@@ -1,0 +1,252 @@
+﻿<!--блок с директивой версии используемого языка HTML-->
+<!Doctype HTML>
+<!--язык сайта-->
+<html lang="ru">
+<!--техническая информация о страннице-->
+<head>
+    <!--кодировка-->
+    <meta http-equiv="Content-Type" content="text/html;
+charset=utf-8">
+    <!--адаптация под мобильный телефон-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--заголовок страницы-->
+    <title>Лабораторная работа №1</title>
+    <!--стили CSS-->
+    <style>
+        html {
+            margin: 0;   /* внешнее поле */
+        }
+        /*основная часть, тело*/
+        body {
+            margin: 0;
+        }
+        /*настройка хэдэра*/
+        header { /* настройка заголовка*/
+            padding: 0 0 0 0; /* внутренний отступ (верх, право, низ, верх)*/
+            background-color: #f0ad4e; /*цвет фона*/
+            border-top: 1px solid #000 /*граница (толщина, тип, цвет)*/
+        }
+        /*настройка заголовка хэдэра*/
+        header h1 {
+            text-align: center; /*положение текста*/
+            letter-spacing: 14px; /*отступ между буквами*/
+            font-size: 250%; /*размер шрифта в %, 250% от стандарта*/
+        }
+        /*настройка параграфа хэдэра*/
+        header p {
+            padding: 2px;
+            color: white; /*цвет параграфа*/
+            font-size: 120%;
+            letter-spacing: 3px;
+        }
+        /*по заданию ЛР*/
+        .content {
+            width: auto; /*ширина*/
+            padding-left: 400px; /*внутренний отступ слева*/
+        }
+        /*левая сторона тела*/
+        .sidebar_left {
+            margin-top: -20px;
+            height: 500px; /*высота*/
+            width: 220px;
+            text-align: center;
+            float: left;
+            border-left: 10px solid grey;
+            border-right: 10px solid lightgrey;
+        }
+        h3 {
+            text-align: center; 
+            color: #4671D5;
+            font-size: 180%;
+            font-weight: lighter;
+            letter-spacing: 3px;
+        }
+         /*список левая сторона*/       
+        .sidebar_left ul li, .sidebar_left ul li a {
+            padding-right: 20px;
+            padding-bottom: 5px;
+            font-size: 18px;
+            letter-spacing: 3px;
+            color: #33CCCC;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        /*правая сторона тела*/
+        .sidebar_right {
+            margin-top: -20px;
+            height: 500px;
+            width: 330px;
+            padding: 0 10px 5px 0;
+            text-align: center;
+            float: right;
+            border-right: 10px solid grey;
+            border-left: 10px solid lightgrey;
+        }
+        /*создание вложенного текста*/
+        .hide, .hide + label ~ div {
+            display: none; 
+        }
+        /* вид текста label */
+        .hide + label,
+        .hide:checked + label {
+            padding: 0;
+            color: #33CCCC;
+            cursor: pointer;
+            border-bottom: 1px dotted green;
+        }
+        /* вид текста label при активном переключателе */
+        .hide:checked + label {
+            color: red;
+            border-bottom: 0;
+        }
+        /* когда чекбокс активен показываем блоки с содержанием  */
+        .hide:checked + label + div {
+            display: block; 
+            background: #efefef;
+            -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+            -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+            box-shadow: inset 3px 3px 10px #7d8e8f;
+            padding: 10px; 
+            text-align: justify;
+        }
+        ul li a:hover, a:hover {
+            color: #6C8CD5;
+        }
+        textarea {
+            height: 220px;
+            width: 335px;
+        }
+        /*нижняя часть (подвал, footer) */
+        footer {
+            color: #666;
+            background-color: #222;
+            padding: 10px 0 10px 0;
+            border-top: 1px solid #000;
+            position: fixed; /*позиция зафиксированная*/
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            }
+        footer p, footer h4 {
+            padding: 0 !important;
+            margin: 0 !important;
+            color: lightgrey;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- создаем хэдэр, заголовок страницы, тут обычно заглавное меню-->
+    <header>
+        <h1>Введение в язык HTML.<br></h1>
+        <p>Создание простой веб-страницы</p>
+    </header>
+    
+    <!--создаем контейнер для содержимого нашего сайта-->
+    <div class="container">
+        <!--создаем меню с ссылками-->
+        <div class="sidebar_left">
+            <h3>Развлечения</h3>
+                <ul>
+                    <li><a href="https://tusur.ru/ru/novosti-i-meropriyatiya/novosti">Новости</a></li>
+                    <li><a href="https://study.tusur.ru/forum/">Форум</a></li>
+                    <li><a href="https://tusur.ru/ru/novosti-i-meropriyatiya/video-bank">Видео</a></li>
+                    <li><a href="https://muzlo.me">Музыка</a></li>
+                </ul>
+        </div>
+
+            <!--правая сторона, создаем вкладки с текством-->
+        <div class="sidebar_right">
+            <!-- задание лабоарторной работы-->
+            <h3>Задание</h3>
+            <input class="hide" id="hd-1" type="checkbox"> <!-- checkbox для выбора, по умолчанию галочка-->
+            <label for="hd-1">Просмотреть задание</label> <!--название меню-->
+            <div>
+                <!-- нумерованный список-->
+                <ol>
+                    <li>Согласно варианту задания разметить представленный текст с помощью HTML-элементов. Описать в комментариях.</li>
+                    <li>Провести тестирование кода используя ресурс <a href="https://validator.w3.org/">https://validator.w3.org/</a>. Исправить полученные ошибки.</li>
+                </ol>
+            </div>
+            <br>
+            <input class="hide" id="hd-2" type="checkbox" > <!-- checkbox для выбора, по умолчанию галочка-->
+            <label for="hd-2">Просмотреть код</label> <!--название меню-->
+            <div>
+                <!-- вставляем наш код в тэг textarea -->
+                <textarea style="font-size: 12px">
+                    <p>
+                        <!-- создаем заголовок 2 типа -->
+                        <h2>Этапы отрисовки любой страницы:<br></h2>
+                        <!-- создаем ненумерованный список -->
+                    <ul>
+                    <li>подготовка к запросу на сервер;</li>
+                    <li>запрос данных с сервера;</li>
+                    <li>шаблонизация;</li>
+                    <li>обновление DOM.</li>
+                </ul>
+                <!-- создаем параграфы с тэгом создающим кавычки -->
+                <p>
+                    - <q>Ок, теперь у нас есть метрики, мы можем отправить их на сервер</q>, – говорим мы.
+                </p>
+                <p>
+                    - <q>Что же дальше?</q> – вопрошаете вы.
+                </p>
+                <p>
+                    - <q>А давай построим график!</q> – отвечаем мы.
+                </p>
+                <p>
+                    - <q>А что будем считать?</q> – уточняете вы.
+                </p>
+            </textarea>
+            </div>
+    </div>
+
+    <!-- решение лабораторного задания -->
+    <div class="content">
+    <!-- создаем заголовок 2 типа -->
+        <h2>Этапы отрисовки любой страницы:<br></h2>
+        <!-- создаем ненумерованный список -->
+        <div>
+            <ul>
+                <li>подготовка к запросу на сервер;</li>
+                <li>запрос данных с сервера;</li>
+                <li>шаблонизация;</li>
+                <li>обновление DOM.</li>
+            </ul>
+        </div>
+        <!-- создаем параграфы с тэгом создающим кавычки -->
+        <p>
+            - <q>Ок, теперь у нас есть метрики, мы можем отправить их на сервер</q>, – говорим мы.
+        </p>
+        <p>
+            - <q>Что же дальше?</q> – вопрошаете вы.
+        </p>
+        <p>
+            - <q>А давай построим график!</q> – отвечаем мы.
+        </p>
+        <p>
+            - <q>А что будем считать?</q> – уточняете вы.
+        </p>
+    </div>
+
+    </div>
+</body>
+    
+    <!-- создание футера-->
+    <footer>
+        <table> <!-- таблица в 3 столбика -->
+            <td> <!--столбцы-->
+                <h4 style="font-size: 16px;"><strong>Выполнил:</strong><br></h4>
+                <p style="font-size: 12px;">Cтудент группы ##########</p>   
+                <p>******* ****** *******</p>
+                <p>2019</p>
+            </td>
+            <td style="padding-left: 100px;">
+                <h3 style="text-align: center; font-size: 14px;"> ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ <br>*****</h3>
+            </td>
+            <td style="padding-left: 70px; padding-bottom: 25px;">
+                <h3 style="text-align: right; color: white; font-size: 12px;"><a style="color: lightgrey;" href="mailto:*@mail.ru">Написать письмо</a><br>Телефон</h3>
+            </td>
+        </table>
+    </footer>
+</html>
