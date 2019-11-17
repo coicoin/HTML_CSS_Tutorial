@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Лабораторная работа 2</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!--подключаем стили CSS-->
+    	<script src="assets/js/config.js"></script> <!--подключаем скрипт-->
+    </head>
+	<body>
+		<!--header, заголовок-->
+        <header>
+            <div class="menu">
+                <div class="lg-1">
+                    <div class="logo"><img src="assets/img/six.png" alt="TUSUR"/></div>
+                </div>
+                <div class="lg-10"><h1>ОСНОВЫ ГИПЕРТЕКСТОВОГО ПРЕДСТАВЛЕНИЯ ИНТЕРНЕТ-КОНТЕНТА</h1><br/><h2>Тема: "Анимации"</h2></div>
+                <div class="lg-1"><h3 id="time">Time</h3></div>	<!--здесь наши часы-->
+            </div>
+            <div class="menu-container">
+                <div class="menu-item"><a href="laba2.html">Главная страница</a></div>
+            </div>
+        </header>
+
+		<div class="content">
+			<div class="lg-3">
+				<!-- задание на лабораторную работу-->
+            	<h3>Задание</h3>
+            	<input class="hide" id="hd-1" type="checkbox"> <!-- checkbox для выбора, по умолчанию галочка-->
+            	<label for="hd-1">Просмотреть задание</label> <!--название меню-->
+                	<!-- нумерованный список-->
+                	<p>
+                    	Вариант 5. Объект: шестиугольник. При наведении элемент приближается к зрителю и 4 раза прокручивается против часовой стрелки.
+                	</p>
+            	<br>
+            	<input class="hide" id="hd-2" type="checkbox" > <!-- checkbox для выбора, по умолчанию галочка-->
+            	<label for="hd-2">Просмотреть код</label> <!--название меню-->
+                	<!-- вставляем наш код в тэг textarea -->
+                	<p>HTML<textarea>
+<div class="lg-9"> <!-- три вида анимации-->
+    <h3>Наведите указатель мыши на одну из фигур ниже</h3>
+    <div id="hexagon"></div>
+    <div id="sexangle"></div>
+    <div id="six"><img src="assets/img/six.png" alt="HEX"/></div>
+</div>                    	
+            		</textarea>
+            		CSS <textarea>
+#hexagon {
+    float: left;
+    width: 100px;
+    height: 55px;
+    background: red;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+#hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid red;
+}
+
+#hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid red;
+}
+
+/*А Н И М А Ц И Я*/
+#hexagon:hover {
+    animation-name: rotation;
+    animation-duration: 5s;
+}
+
+@keyframes rotation {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+
+    100% {
+        transform: scale(3) rotate(-1440deg);
+    }
+}
+
+#sexangle {
+    float: left;
+    width: 100px;
+    height: 55px;
+    background: black;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#sexangle:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid black;
+}
+
+#sexangle:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid black;
+}
+
+/*А Н И М А Ц И Я*/
+#sexangle:hover {
+    animation-name: rotation_s;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+}
+
+@keyframes rotation_s {
+    0% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(3) rotate(-360deg);
+    }
+}
+
+div#six img {
+    width: 130px;
+    height: auto;
+    background-size: cover;
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+#six:hover img {
+    transform: scale(2); 
+    transform-origin: center;
+    animation-name: rotation_six;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+
+}
+
+@keyframes rotation_six {
+    100% {
+        transform: scale(3) rotate(-360deg);
+    }    
+}
+            		</textarea>
+            	</p>
+
+			</div>
+			<div class="lg-9">
+                <h3>Наведите указатель мыши на одну из фигур ниже</h3>
+				<div id="hexagon"></div>
+                <div id="sexangle"></div>
+                <div id="six"><img src="assets/img/six.png" alt="HEX"/></div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="lg-2"> <!-- таблица в 3 столбика -->
+                	<h4 style="text-align: center"><strong>Выполнил:</strong><br></h4>
+                	<p>Cтудент группы ****</p>   
+                	<p>**** **** ****</p>
+                	<p>2019</p>
+            </div>
+            <div class="lg-8">
+            	 <h3> ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ <br>****</h3>
+            </div>
+            <div class="lg-2">
+            	 <h4><a href="mailto:*@mail.ru"><br><br>Написать письмо</a></h4>
+            </div>
+		</footer>
+
+	</body>
+</html>

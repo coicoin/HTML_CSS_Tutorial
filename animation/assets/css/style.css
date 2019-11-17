@@ -1,0 +1,428 @@
+/*Адаптирование под все устройства*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #45433B;
+    box-shadow: 0 2px 2px 0 #45433B, 0 3px 2px 0 #78858B;
+}
+
+/*Логотип*/
+header .lg-1 img {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    background-size: cover;
+    margin-top: 20%;
+    float: left;
+}
+
+header .logo:hover img {
+    transform-origin: center;
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -moz-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+}
+
+/*Время javascript*/
+header #time {
+    float: right;
+}
+
+header h1, header h2 {
+    font-size: 160%;
+    color: #F5F5F5;
+	text-align: center;
+	text-shadow: -3px 2px blue;
+	font-family: Comic Sans MS;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#time {
+    color: #F5F5F5;
+    margin: 10%;
+}
+
+.menu-container {
+    height: 40px;
+    width: 100%;
+    float: right;
+}
+
+.menu-item {
+    height: 100%;
+    width: 12%;
+    float: right;
+    text-align: center;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #F5F5F5;
+
+    letter-spacing: 1.8px;
+}
+
+header a:hover {
+    transform: scale(1.05) translate(0, 2px);
+    color: orangered;
+}
+
+body {
+    font-family: "Times New Roman";
+    font-size: 1em;
+}
+
+/*контейнер*/
+div.content {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 800px;
+    height: auto;
+    position: relative;
+    margin-top: 3%;
+    float: left;
+}
+
+.content .lg-3 h3 {
+    color: #9CAADD;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.hide + label {
+    color: cornflowerblue;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+/*создание вложенного текста, прячем текст*/
+.hide, .hide + label + p {
+    display: none;
+    cursor: pointer;
+}
+
+.hide + label:hover {
+    color: blue;
+    cursor: pointer;
+    color: #33CCCC;
+    border-bottom: 1px dotted green;
+}
+
+/* вид текста label при активном переключателе */
+.hide:checked + label + p {
+    color: red;
+    display: block;
+    background: #efefef;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 3%;
+    text-align: justify;
+}
+
+.hide:checked + label {
+    color: green;
+}
+
+textarea {
+    text-align: left;
+    min-height: 150px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.content .lg-9 {
+    text-align: center;
+    color: #9CAADD;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/*Ш Е С Т И У Г О Л Ь Н И К*/
+#hexagon {
+    float: left;
+    width: 100px;
+    height: 55px;
+    background: red;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10%;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+#hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid red;
+}
+
+#hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid red;
+}
+
+/*А Н И М А Ц И Я*/
+#hexagon:hover {
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+}
+
+@keyframes rotation {
+    0% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(3) rotate(-360deg);
+    }
+}
+
+#sexangle {
+    float: left;
+    width: 100px;
+    height: 55px;
+    background: black;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#sexangle:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid black;
+}
+
+#sexangle:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid black;
+}
+
+/*А Н И М А Ц И Я*/
+#sexangle:hover {
+    animation-name: rotation_s;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation_s {
+    25% {
+        transform: scale(3);      
+    }
+
+    100% {
+        transform: scale(3) rotate(-1440deg);
+
+    }
+}
+
+div#six img {
+    width: 130px;
+    height: auto;
+    background-size: cover;
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+    -webkit-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+}
+
+#six:hover img {
+    -webkit-transform: scale(3) rotate(-1440deg); 
+    -moz-transform: scale(3) rotate(-1440deg); 
+    -o-transform: scale(3) rotate(-1440deg); 
+    -ms-transform: scale(3) rotate(-1440deg); 
+    transform-origin: center;
+}
+
+/*Нижняя часть*/
+footer {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 100px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    background-color: #45433B;
+    box-shadow: 0 2px 2px 0 #45433B, 0 3px 2px 0 #78858B;
+    text-align: center;
+}
+/*ТУСУР*/
+footer .lg-8 {
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: -0.5px 1px blue;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+/*левая и правая часть футера*/
+footer .lg-2 {
+    color: #F5F5F5;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 80%;
+}
+/*Написать письмо*/
+footer .lg-2 a {
+    color: wheat;
+    }
+
+footer .lg-2 a:hover {
+    color: #F5F5F5;
+}
+
+/*Адаптация под все устройства, деление страницы*/
+.lg-1 {
+    width: 8.3333333333%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-2 {
+    width: 16.6666666666666%;
+    float: left;
+    position: relative;
+    height: auto;
+    ;
+}
+
+.lg-3 {
+    width: 25%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-4 {
+    width: 33.33333333333333%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-5 {
+    width: 41.66666666666667%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-7 {
+    width: 58.33333333333333%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-8 {
+    width: 66.66666666666667%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-9 {
+    width: 75%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-10 {
+    width: 83.33333333333333%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-11 {
+    width: 91.66666666666667%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.lg-12 {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: auto;
+}
