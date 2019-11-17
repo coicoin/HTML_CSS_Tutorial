@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Лабораторная работа 1</name>
+	<open>1</open>
+	<description>Подготовил студент унивеситета ТУСУР Черноусов О.И.!</description>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="highlight_poi_lodging">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/lodging-15.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c4ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c4ff55ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="dir_route">
+		<LineStyle>
+			<color>7f00ff00</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="normal_poi_lodging">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/lodging-15.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="default0">
+	</Style>
+	<StyleMap id="1048904">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poi3n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poi3h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_pharmacy-15">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/pharmacy-15.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_cafe-15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cafe-15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cafe-15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c4ffff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="dir_route0">
+		<LineStyle>
+			<color>7f00ff00</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_pharmacy-15">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/pharmacy-15.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_cafe-15">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/cafe-15.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="poi3h">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/park-15.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c4ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c40000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c426ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c40000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c4ff55ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_cafe-15">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/cafe-15.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospital-h-15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospital-h-15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospital-h-15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c400ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_hospital-h-15">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/hospital-h-15.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_generic_poi-15">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/generic_poi-15.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c40000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c400ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c426ff00</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="dir_step">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poi3n">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/park-15.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="lodging">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normal_poi_lodging</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#highlight_poi_lodging</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="dir_route1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dir_route0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dir_route</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c40000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_generic_poi-15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_generic_poi-15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_generic_poi-15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hl">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c4ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_hospital-h-15">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/hospital-h-15.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c426ff00</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c426ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_pharmacy-15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pharmacy-15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pharmacy-15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c426ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>80ffffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>c426ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_generic_poi-15">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/smartmaps_icons/generic_poi-15.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="dir_route2">
+		<LineStyle>
+			<color>7fa00000</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Placemarks</name>
+		<open>1</open>
+		<description>These are just some of the different kinds of placemarks with
+        which you can mark your favorite places</description>
+		<LookAt>
+			<longitude>-122.0839597145766</longitude>
+			<latitude>37.42222904525232</latitude>
+			<altitude>0</altitude>
+			<heading>-148.4122922628044</heading>
+			<tilt>40.5575073395506</tilt>
+			<range>500.6566641072245</range>
+		</LookAt>
+		<Placemark>
+			<name>ТУСУР</name>
+			<description><![CDATA[<html>
+ <body>
+  <img href="https://storage.tusur.ru/files/125925/1024-682/tusur_spruce.jpg" />
+  <h1 style="color: red">Томской государственный университет систем управления и радиоэлектронники</br></h1>
+   <p style="color: green">город Томск, Томская область, Россия</p>
+   <p>+7 382-255-255-255</td>
+   <p><a style="color: #008000" href="http://study.tusur.ru/"</a></p>
+ </body>
+</html>]]></description>
+			<styleUrl>#default</styleUrl>
+			<Point>
+				<coordinates>84.94973888888889,56.47401666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4706767910983772277">
+			<name>Факультетские Клиники Сибгму, Сибирский Государственный</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+2">
+      <b><a style="text-decoration: none; color: #34C6CD" href="http://maps.google.com/maps/place?cid=4706767910983772277">Факультетские Клиники Сибгму, Сибирский Государственный</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color: #34C6CD; font-size: 1.5em">город Томск
+Томская область, Россия</p></td>
+</tr>
+<tr>
+  <td><p style="color: #34C6CD>+7 382-253-34-05</p></td>
+</tr>
+<tr>
+  <td><a style="color: #555555" href="http://clinics.tomsk.ru/">http://clinics.tomsk.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>#msn_hospital-h-15</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-hospital_h-hospital._._._.94aa9c455f15b010_en&amp;cad=lat:56.4728598,lon:84.9499733,quad:02023230003202000,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.94997222222223,56.47286111111112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="14310726198154249450">
+			<name>Родильный Дом № 1</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; color: aqua" href="http://maps.google.com/maps/place?cid=14310726198154249450">Родильный Дом № 1</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color: #E667AF>город Томск
+Томская область, Россия</p></td>
+</tr>
+<tr>
+  <td><p style="color: #E667AF>+7 3822-52-83-24</p></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#hospital_h</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-hospital_h-hospital._._._.75b44fb5c4e08368_en&amp;cad=lat:56.471511,lon:84.95101,quad:02023230003202000,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.95101,56.47151100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15256252969178392216">
+			<name>Томский Государственный Университет (ТГУ), 12-Й Корпус</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; color: grey; font: italic" href="http://maps.google.com/maps/place?cid=15256252969178392216">Томский Государственный Университет (ТГУ), 12-Й Корпус</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>Russia</td>
+</tr>
+<tr>
+  <td><a style="color: red" href="http://tsu.ru/">http://tsu.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#university</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-university-university._._._.46a215213ae8f1a2_en&amp;cad=lat:56.472,lon:84.9515,quad:02023230003202000,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.9515,56.47200000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Universitetskaya roshcha</name>
+			<description><![CDATA[<html><body><img width="2" height="1" style="display:none"/>
+			<h3 style="color: green; font-family: Comic Sans MS">Парк университетская роща</h3>
+			<img href="https://www.riatomsk.ru/Upload/sub-11/58414_4.jpg">
+		</body></html>]]></description>
+			<styleUrl>#1048904</styleUrl>
+			<Point>
+				<coordinates>84.9485048,56.4699182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3891578371810739962">
+			<name>Гостиница, Ни ТГУ</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; color: #992667"> href="http://maps.google.com/maps/place?cid=3891578371810739962">Гостиница, Ни ТГУ</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color: #992667">Ленина пр., 49, Томск, Россия
+634034</p></td>
+</tr>
+<tr>
+  <td><p style="text-decoration: none; color: blue">+7 382-252-83-86</td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>#lodging</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-lodging-hotel._._._.3b856f1df831ef18_en&amp;cad=lat:56.4680755,lon:84.9511229,quad:02023230003203111232,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.9511229,56.4680755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13510293507446671551">
+			<name>Томский Государственный Университет, 3-Й Корпус</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=13510293507446671551">Томский Государственный Университет, 3-Й Корпус</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>город Томск
+Томская область, Россия</td>
+</tr>
+
+<tr>
+  <td><a style="color: #008000" href="http://www.tsu.ru/">http://www.tsu.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#university</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-university-university._._._.a08b0be4afcea92a_en&amp;cad=lat:56.4676048,lon:84.9501244,quad:0202323000320311,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.95012440000001,56.4676048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2273644101775124721">
+			<name>Вирион, медико-диагностический центр</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="250">
+<tr>
+  <td colspan="2">
+    <font size="+2">
+      <b><a style="text-decoration: none; color: orange" href="http://maps.google.com/maps/place?cid=2273644101775124721">Вирион, медико-диагностический центр</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color: green">Ленина пр., 32, Томск, Россия
+634034</p></td>
+</tr>
+<tr>
+  <td><p style="text-decoration: none; color: orange">+7 382-253-43-45</p></td>
+</tr>
+<tr>
+  <td><a style="color: orange" href="http://mdc.virion.tom.ru/">http://mdc.virion.tom.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#hospital_h</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-hospital_h-hospital._._._.ea22ac44c24de925_en&amp;cad=lat:56.466991,lon:84.950191,quad:02023230003203111,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.950191,56.466991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10349622953878609303">
+			<name>Томский Политехнический Университет</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="200">
+<tr>
+  <td colspan="2">
+    <font size="2">
+      <b><a style="text-decoration: none; color: grey" href="http://maps.google.com/maps/place?cid=10349622953878609303">Томский Политехнический Университет</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>проспект Ленина, 30,
+город Томск, Томская область, Россия</td>
+</tr>
+<tr>
+  <td>+7 382-270-17-77</td>
+</tr>
+<tr>
+  <td><a style="color: black" href="http://tpu.ru/">http://tpu.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#university</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-university-university._._._.48d8363f75aeed9b_en&amp;cad=lat:56.465382,lon:84.950205,quad:02023230003203,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.950205,56.46538200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="14110468776104466912">
+			<name>Сано</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="300">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; color: lightblue" href="http://maps.google.com/maps/place?cid=14110468776104466912">Сано</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color: lightblue">проспект Ленина, 30А
+Томск, Томская область, Россия</p></td>
+</tr>
+<tr>
+  <td><p style="color: lightblue">+7 382-242-10-10</p></td>
+</tr>
+<tr>
+  <td><a style="color: red" href="http://www.aptekasano.ru/">http://www.aptekasano.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>#msn_pharmacy-15</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-pharmacy-pharmacy._._._.b886c424a9de472b_en&amp;cad=lat:56.464559,lon:84.949993,quad:02023230003203111,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.94999300000001,56.464559,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5638716566883935266">
+			<name>Subway</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; color: black; background: lightblue" href="http://maps.google.com/maps/place?cid=5638716566883935266">Subway</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>просп. Ленина, 41
+Томск, Томская область, Россия</td>
+</tr>
+<tr>
+  <td>+7 3822-93-36-00</td>
+</tr>
+<tr>
+  <td><a style="color: grey" href="http://subway.tomsk.ru/">http://subway.tomsk.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>#msn_cafe-15</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-cafe-cafe._._._.70ce3fe8f3c51a1f_en&amp;cad=lat:56.4639027,lon:84.9514979,quad:02023230003203110,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.95149790000001,56.4639027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5480241775287005459">
+			<name>Комета, Центр Медицинской Техники, ООО</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; background: black; color: red" href="http://maps.google.com/maps/place?cid=5480241775287005459">Комета, Центр Медицинской Техники, ООО</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color:red">просп. Ленина, 22, г. Томск, Томская область, Россия
+634028</p></td>
+</tr>
+<tr>
+  <td><p style="font-size: 2em">+7 3822-41-89-03</p></td>
+</tr>
+<tr>
+  <td><a style="color: red" href="http://medtechnika.ru/">http://medtechnika.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>#msn_generic_poi-15</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-generic_poi-health._._._.7a11d2b9f072039d_en&amp;cad=lat:56.4611958,lon:84.9505486,quad:02023230003203110,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.95054860000001,56.4611958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3568861914345047658">
+			<name>Сибирь Авиакомпания</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="400">
+<tr>
+  <td colspan="3">
+    <font size="+2">
+      <b><a style="text-decoration: none; color: #1D7373" href="http://maps.google.com/maps/place?cid=3568861914345047658">Сибирь Авиакомпания</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>город Томск
+Томская область, Россия</td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#airport</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-airport-airport._._._.00556e1add43a365_en&amp;cad=lat:56.4562491,lon:84.9519722,quad:0202323000320,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.9519722,56.4562491,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5662128211897997095">
+			<name>Буланже</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="200">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; background: lightblue; color: grey" href="http://maps.google.com/maps/place?cid=5662128211897997095">Буланже</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>улица Нахимова, 2
+Томск, Томская область, Россия</td>
+</tr>
+<tr>
+  <td><p style="color: #999">+7 3822-55-34-92 </td><a href="http://bulange.tomsk.ru">http://bulange.tomsk.ru</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#restaurant</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-restaurant-food_and_drink._._._.33875a4331a39494_en&amp;cad=lat:56.4554039,lon:84.9522215,quad:02023230003203102,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.95222149999999,56.4554039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15667514069615907336">
+			<name>Городская Больница № 3</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="300">
+<tr>
+  <td colspan="2">
+    <font size="+2">
+      <b><a style="text-decoration: none; color: yellow" href="http://maps.google.com/maps/place?cid=15667514069615907336">Городская Больница № 3</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>улица Нахимова, 3
+Томск, Томская область, Россия</td>
+</tr>
+<tr>
+  <td>+7 3822-41-47-85</td>
+</tr>
+<tr>
+  <td><a style="color: blue" href="http://gb3tomsk.narod.ru">http://gb3tomsk.narod.ru</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#hospital_h</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-hospital_h-hospital._._._.acc9b848680d3904_en&amp;cad=lat:56.4548314,lon:84.9606228,quad:0202323000320313,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.9606228,56.4548314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11993022190285396317">
+			<name>Микран</name>
+			<description><![CDATA[<html>
+ <body>
+   <table>
+    <tr>
+     <td>
+      <div><table width="150">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none; color: #5CCCCC" href="http://maps.google.com/maps/place?cid=11993022190285396317">Микран</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td><p style="color: blue">Вершинина ул., 47, Томск, Томская область, Россия
+634034</p></td>
+</tr>
+<tr>
+  <td><p style="color: grey">+7 382-241-46-32</p></td>
+</tr>
+<tr>
+  <td><a style="color: #5CCCCC" href="http://www.micran.ru/">http://www.micran.ru/</a></td>
+</tr>
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#generic_poi</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-generic_poi-undefined._._._.e9f5bd7f52d794f2_en&amp;cad=lat:56.4517947,lon:84.9621726,quad:0202323000320313,cc:RU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>84.9621726,56.45179470000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ФЭТ</name>
+			<description><![CDATA[<html>
+			 <body>
+			   <table>
+			    <tr>
+			     <td>
+			      <div><table width="250">
+			<tr>
+			  <td colspan="2">
+			    <font size="+2">
+			      <b><a style="text-decoration: none; color: green" href="http://maps.google.com/maps/place?cid=11993022190285396317">Учебный корпус ФЭТ</a></b>
+			    </font>
+			  </td>
+			</tr>
+			<tr>
+			  <td><p style="background: orange">Вершинина ул., 47, Томск, Томская область, Россия
+			634034</p></td>
+			</tr>
+			<tr>
+			  <td><p style="color: orange">+7 382-241-46-32</p></td>
+			</tr>
+			<tr>
+			  <td><a style="color: grey; text-decoration: none">href="http://www.tusur.ru/></a>Перейти на сайт</td>
+			</tr>
+			</table></div>
+			     </td>
+			    </tr>
+			   </table>
+			  </div>
+			 </body>
+			</html>]]></description>
+			<styleUrl>#default</styleUrl>
+			<Point>
+				<coordinates>84.96420277777779,56.45109166666668,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Paths</name>
+		<open>1</open>
+		<description>There are paths..</description>
+		<Folder id="results">
+			<name>Маршрут от ТУСУР до ФЭТ</name>
+			<Style id="dir_step120">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+					</Icon>
+				</IconStyle>
+				<BalloonStyle>
+					<text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+					<textColor>ff000000</textColor>
+					<displayMode>default</displayMode>
+				</BalloonStyle>
+			</Style>
+			<Placemark id="1.3.2.2.2">
+				<name>Route</name>
+				<styleUrl>#dir_route1</styleUrl>
+				<LineString>
+					<coordinates>
+						84.95017679999999,56.47410100000001,0 84.95061503106882,56.46823232916357,0 84.9507947213212,56.46460537174172,0 84.95104995193391,56.45921682348337,0 84.95111840000001,56.4573599,0 84.95113979999999,56.4558059,0 84.95121135887668,56.4552014369479,0 84.95797831288652,56.4552773944741,0 84.9625298,56.45523009999999,0 84.96255219999999,56.45348760000001,0 84.9625164,56.4517424,0 84.96503369999999,56.4514771,0 84.96503229999999,56.4507559,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder id="results">
+			<name>Маршрут с указателями от ТУСУР до ФЭТ</name>
+			<visibility>0</visibility>
+			<Style id="dir_step">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+					</Icon>
+				</IconStyle>
+				<BalloonStyle>
+					<text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+					<textColor>ff000000</textColor>
+					<displayMode>default</displayMode>
+				</BalloonStyle>
+			</Style>
+			<Placemark id="1.1">
+				<name>ТУСУР</name>
+				<visibility>0</visibility>
+				<address>пр. Ленина, 40</address>
+				<styleUrl>Laba 1.kml#dir_startpoint</styleUrl>
+				<Point>
+					<coordinates>84.9497389,56.4740167,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.2">
+				<name>ФЭТ</name>
+				<visibility>0</visibility>
+				<address>ул. Вершинина, 74</address>
+				<styleUrl>#dir_endpoint</styleUrl>
+				<Point>
+					<coordinates>84.9642028,56.4510917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder id="1.5">
+				<name>Путь</name>
+				<visibility>0</visibility>
+				<Style id="dir_route2">
+					<LineStyle>
+						<color>7fa00000</color>
+						<colorMode>normal</colorMode>
+						<width>6</width>
+					</LineStyle>
+				</Style>
+				<Placemark id="1.5.2.2.2">
+					<name>Направляйтесь на юг в сторону Московский тракт</name>
+					<visibility>0</visibility>
+					<description>Направляйтесь на юг в сторону Московский тракт</description>
+					<LookAt>
+						<longitude>84.94945179999999</longitude>
+						<latitude>56.4738583</latitude>
+						<altitude>0</altitude>
+						<heading>173.63664</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5738583</north>
+							<south>56.3738583</south>
+							<east>85.04945179999999</east>
+							<west>84.8494518</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.94945179999999,56.4738583,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.3.2">
+					<name>Поверните направо на Московский тракт</name>
+					<visibility>0</visibility>
+					<description>Поверните направо на Московский тракт</description>
+					<LookAt>
+						<longitude>84.94951709999999</longitude>
+						<latitude>56.4732844</latitude>
+						<altitude>0</altitude>
+						<heading>177.64395</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5732844</north>
+							<south>56.3732844</south>
+							<east>85.04951709999999</east>
+							<west>84.8495171</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.94951709999999,56.47328439999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.3.3">
+					<name>Плавный поворот направо на Московский тракт/пер. Базарный</name>
+					<visibility>0</visibility>
+					<description>Плавный поворот направо на Московский тракт/пер. Базарный</description>
+					<LookAt>
+						<longitude>84.9456118</longitude>
+						<latitude>56.47328</latitude>
+						<altitude>0</altitude>
+						<heading>-89.31537</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.57328</north>
+							<south>56.37327999999999</south>
+							<east>85.04561179999999</east>
+							<west>84.8456118</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.9456118,56.47328,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.3.4">
+					<name>Резкий поворот налево на пер. Базарный</name>
+					<visibility>0</visibility>
+					<description>Резкий поворот налево на пер. Базарный</description>
+					<LookAt>
+						<longitude>84.9449468</longitude>
+						<latitude>56.4734789</latitude>
+						<altitude>0</altitude>
+						<heading>-57.913593</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5734789</north>
+							<south>56.3734789</south>
+							<east>85.04494679999999</east>
+							<west>84.8449468</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.9449468,56.47347890000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.3.5">
+					<name>Поверните налево на Московский тракт</name>
+					<visibility>0</visibility>
+					<description>Поверните налево на Московский тракт</description>
+					<LookAt>
+						<longitude>84.9451491</longitude>
+						<latitude>56.4732503</latitude>
+						<altitude>0</altitude>
+						<heading>160.28726</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5732503</north>
+							<south>56.3732503</south>
+							<east>85.04514909999999</east>
+							<west>84.8451491</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.9451491,56.4732503,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.3.6">
+					<name>Поверните направо на пр. Ленина</name>
+					<visibility>0</visibility>
+					<description>Поверните направо на пр. Ленина</description>
+					<LookAt>
+						<longitude>84.9502011</longitude>
+						<latitude>56.47328810000001</latitude>
+						<altitude>0</altitude>
+						<heading>89.43886999999999</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.57328810000001</north>
+							<south>56.3732881</south>
+							<east>85.0502011</east>
+							<west>84.85020110000001</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.9502011,56.47328810000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.3.7">
+					<name>Поверните налево на ул. Нахимова/Р400</name>
+					<visibility>0</visibility>
+					<description>Поверните налево на ул. Нахимова/Р400</description>
+					<LookAt>
+						<longitude>84.951109</longitude>
+						<latitude>56.4551871</latitude>
+						<altitude>0</altitude>
+						<heading>178.84969</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5551871</north>
+							<south>56.3551871</south>
+							<east>85.051109</east>
+							<west>84.85110900000001</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.951109,56.45518710000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.4.2">
+					<name>Поверните направо на ул. Вершинина</name>
+					<visibility>0</visibility>
+					<description>Поверните направо на ул. Вершинина</description>
+					<LookAt>
+						<longitude>84.9625298</longitude>
+						<latitude>56.45523009999999</latitude>
+						<altitude>0</altitude>
+						<heading>90.25947600000001</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5552301</north>
+							<south>56.35523009999999</south>
+							<east>85.06252979999999</east>
+							<west>84.8625298</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.9625298,56.45523009999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.4.3">
+					<name>Поверните налево на пр-д Вершинина</name>
+					<visibility>0</visibility>
+					<description>Поверните налево на пр-д Вершинина</description>
+					<LookAt>
+						<longitude>84.9625164</longitude>
+						<latitude>56.4517424</latitude>
+						<altitude>0</altitude>
+						<heading>-179.17729</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5517424</north>
+							<south>56.3517424</south>
+							<east>85.06251639999999</east>
+							<west>84.8625164</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.9625164,56.4517424,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.4.4">
+					<name>Поверните направо</name>
+					<visibility>0</visibility>
+					<description>Поверните направо</description>
+					<LookAt>
+						<longitude>84.96503369999999</longitude>
+						<latitude>56.4514771</latitude>
+						<altitude>0</altitude>
+						<heading>118.374504</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5514771</north>
+							<south>56.3514771</south>
+							<east>85.06503369999999</east>
+							<west>84.8650337</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.96503369999999,56.4514771,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2.4.5">
+					<name>Поверните направо</name>
+					<visibility>0</visibility>
+					<description>Поверните направо</description>
+					<LookAt>
+						<longitude>84.96503229999999</longitude>
+						<latitude>56.4507559</latitude>
+						<altitude>0</altitude>
+						<heading>-179.94719</heading>
+						<tilt>45</tilt>
+						<range>360</range>
+					</LookAt>
+					<styleUrl>#dir_step</styleUrl>
+					<Region>
+						<LatLonAltBox>
+							<north>56.5507559</north>
+							<south>56.3507559</south>
+							<east>85.06503229999998</east>
+							<west>84.8650323</west>
+							<minAltitude>0</minAltitude>
+							<maxAltitude>0</maxAltitude>
+							<altitudeMode>absolute</altitudeMode>
+						</LatLonAltBox>
+						<Lod>
+							<minLodPixels>512</minLodPixels>
+							<maxLodPixels>-1</maxLodPixels>
+							<minFadeExtent>0</minFadeExtent>
+							<maxFadeExtent>0</maxFadeExtent>
+						</Lod>
+					</Region>
+					<Point>
+						<coordinates>84.96503229999999,56.4507559,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="1.5.2">
+					<name>Route</name>
+					<visibility>0</visibility>
+					<styleUrl>#dir_route2</styleUrl>
+					<LineString>
+						<coordinates>
+							84.94945180000001,56.4738583,0 84.94945180000001,56.4738583,0 84.94945679999999,56.47385550000001,0 84.9494715,56.4738348,0 84.9494782,56.4738066,0 84.94951709999999,56.47328439999999,0 84.94925960000001,56.4732829,0 84.9483503,56.47328139999999,0 84.9477737,56.4732777,0 84.9474894,56.47327549999999,0 84.946733,56.47327260000001,0 84.9456118,56.47328,0 84.9455085,56.47330290000001,0 84.94541599999999,56.4733259,0 84.9453194,56.4733533,0 84.9451907,56.4733933,0 84.94506730000001,56.47343550000001,0 84.9449468,56.47347890000001,0 84.945019,56.473434,0 84.9450633,56.4733992,0 84.9451062,56.4733614,0 84.9451303,56.47332509999999,0 84.9451411,56.4732918,0 84.9451491,56.4732503,0 84.9452162,56.4732585,0 84.9453355,56.4732688,0 84.9454629,56.47327549999999,0 84.9456118,56.47328,0 84.946733,56.47327260000001,0 84.9474894,56.47327549999999,0 84.9477737,56.4732777,0 84.9483503,56.47328139999999,0 84.94925960000001,56.4732829,0 84.94951709999999,56.47328439999999,0 84.9502011,56.4732881,0 84.95026900000001,56.4729841,0 84.9502844,56.47290959999999,0 84.9503306,56.4726998,0 84.9503472,56.4726599,0 84.9503629,56.4726269,0 84.9503831,56.4725916,0 84.95042479999999,56.47253349999999,0 84.9504331,56.4719163,0 84.9504384,56.47179700000001,0 84.9504599,56.4712133,0 84.95047460000001,56.4707644,0 84.9504814,56.4705562,0 84.9505095,56.4699688,0 84.95052699999999,56.4695102,0 84.9505283,56.46941759999999,0 84.950535,56.4692428,0 84.9505618,56.4685457,0 84.9505886,56.46786259999999,0 84.950594,56.4676982,0 84.95061010000001,56.4672648,0 84.95063829999999,56.4667751,0 84.95064499999999,56.46662689999999,0 84.950653,56.4665024,0 84.9506597,56.46633800000001,0 84.95070800000001,56.465523,0 84.95074099999999,56.464847,0 84.95078580000001,56.4641376,0 84.9508005,56.4638768,0 84.9508099,56.4636686,0 84.9508247,56.4633025,0 84.9508367,56.46307580000001,0 84.95084610000001,56.4628372,0 84.95087700000001,56.4623082,0 84.9508893,56.46204929999999,0 84.9508963,56.4617901,0 84.9509065,56.4615784,0 84.9509159,56.4613887,0 84.950936,56.4611242,0 84.95095480000001,56.46086480000001,0 84.9509601,56.4607581,0 84.9509668,56.4606048,0 84.950991,56.4600564,0 84.95099500000001,56.4599297,0 84.9510138,56.4593569,0 84.9510212,56.4591887,0 84.9510299,56.4590153,0 84.9510528,56.4585876,0 84.95109410000001,56.45781490000001,0 84.9511184,56.4573599,0 84.9511304,56.4570109,0 84.9511304,56.4569034,0 84.9511304,56.4568597,0 84.9511291,56.4567997,0 84.95112640000001,56.45672780000001,0 84.9511251,56.45666330000001,0 84.9511251,56.4565818,0 84.9511318,56.4559904,0 84.95113980000001,56.4558059,0 84.95111300000001,56.4556896,0 84.9511023,56.45563920000001,0 84.9510969,56.4555947,0 84.9510956,56.4555495,0 84.951099,56.45546230000001,0 84.951109,56.45518710000001,0 84.9513584,56.4551916,0 84.95182250000001,56.45520190000001,0 84.95248460000001,56.4552067,0 84.95408089999999,56.45521819999999,0 84.9546495,56.45521819999999,0 84.9565324,56.45522859999999,0 84.95761469999999,56.45523009999999,0 84.9579875,56.4552308,0 84.95918380000001,56.45523009999999,0 84.9601306,56.45523009999999,0 84.9606462,56.455226,0 84.9612209,56.45523160000001,0 84.9619304,56.45523160000001,0 84.9625298,56.45523009999999,0 84.96254860000001,56.45448009999999,0 84.962554,56.45436010000001,0 84.96255669999999,56.4538798,0 84.96255220000001,56.45348760000001,0 84.9625459,56.4529327,0 84.9625375,56.452573,0 84.9625325,56.452362,0 84.9625164,56.4517424,0 84.9625394,56.45171259999999,0 84.9625485,56.4517017,0 84.962565,56.4516905,0 84.9625908,56.45167960000001,0 84.9626079,56.4516742,0 84.9626305,56.4516679,0 84.96361810000001,56.4516572,0 84.9644074,56.45164749999999,0 84.9645589,56.45162610000001,0 84.96468230000001,56.4515927,0 84.96482039999999,56.4515304,0 84.9648862,56.451503,0 84.9649841,56.4514815,0 84.96503370000001,56.4514771,0 84.96503300000001,56.4511156,0 84.9650326,56.4509358,0 84.9650323,56.4507559,0 84.9642035,56.45075540000001,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Polygons</name>
+		<open>1</open>
+		<description>Examples of polygon shapes</description>
+		<Folder>
+			<name>ТУСУР</name>
+			<Placemark>
+				<name>Здание ТУСУР</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.9494360111421,56.47475433232688,27 84.94943744972784,56.47458966987017,27 84.94962698225776,56.47459258494423,27 84.94962640783253,56.47415713517136,27 84.94957474839765,56.47415707008919,27 84.94957303463364,56.47396606930843,27 84.9496272336075,56.47397676054067,27 84.94962360486389,56.47338493060862,27 84.9499865656215,56.47338149702493,27 84.94998672868979,56.47475531950235,27 84.9494360111421,56.47475433232688,27 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Колонны</name>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.94999421584923,56.47392905670299,114 84.95000395591389,56.47393566517759,114 84.95000278408745,56.47394583865172,114 84.94999164837994,56.47395131305193,114 84.94998606440854,56.47396380641165,114 84.94998606423472,56.4739782432748,114 84.95000294605349,56.47398587695975,114 84.95000361581263,56.47399735912396,114 84.94999163719453,56.47400371342341,114 84.94998665393156,56.474016603569,114 84.94998796308175,56.47403132058686,114 84.95000413988626,56.47403808062621,114 84.95000268640179,56.47404969813697,114 84.94998907319868,56.47405604427621,114 84.94999156208509,56.47407840357313,114 84.95000276314097,56.47408801397232,114 84.95000427748559,56.47410034225851,114 84.94998888007007,56.47410806914499,114 84.94999440393454,56.47412224810462,114 84.94999562312452,56.47413568204799,114 84.95000600582955,56.47414797458455,114 84.94999524486865,56.47416086689892,114 84.94999369055532,56.4741724159107,114 84.94998793592069,56.4741852487191,114 84.95000287668103,56.47419255496796,114 84.95000351932316,56.47420218961421,114 84.94998842418217,56.47421154630683,114 84.94999421584923,56.47392905670299,114 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Маленькая пристройка</name>
+				<styleUrl>#msn_ylw-pushpin7</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.94957817801232,56.47338321406188,4 84.94962562351947,56.47338493061202,4 84.94962404896458,56.47342984585719,4 84.94957725933652,56.47343068804178,4 84.94957817801232,56.47338321406188,4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Большая пристройка</name>
+				<styleUrl>#msn_ylw-pushpin7</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.94962295148648,56.47351069282718,4.999999999999999 84.94956445251317,56.47351090507266,4.999999999999999 84.94956523782331,56.47344818845805,4.999999999999999 84.94962371257027,56.47344781172242,4.999999999999999 84.94962295148648,56.47351069282718,4.999999999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ФЭТ</name>
+			<Placemark>
+				<name>ФЭТ</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.96391791726114,56.45134142672731,21 84.96394375018795,56.45079712565813,21 84.96501211017382,56.4507925724606,21 84.9650070827724,56.4513453833664,21 84.96391791726114,56.45134142672731,21 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+					<innerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.96456156977388,56.45119415487153,21 84.96429148857605,56.45118403294134,21 84.96428320507229,56.45091557279372,21 84.96456612013799,56.45092345555486,21 84.96456156977388,56.45119415487153,21 
+							</coordinates>
+						</LinearRing>
+					</innerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ТПУ</name>
+			<Placemark>
+				<name>Политех</name>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.95109377757625,56.46690681222594,8 84.95205563637013,56.46689810654873,8 84.9520788979665,56.4670896192687,8 84.95185256722193,56.46708812499949,8 84.95184519514389,56.46706515484995,8 84.9513291202899,56.46706642157572,8 84.95132552189584,56.46711544499512,8 84.95135482321695,56.4671163137991,8 84.95136292641185,56.46727589296077,8 84.95109362587589,56.46727293547941,8 84.95109377757625,56.46690681222594,8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Институт геодезии и нефтегаза ТПУ</name>
+			<Placemark>
+				<name>ИГНДТПУ</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.95043875396389,56.4649126211407,25 84.95044245783257,56.46506655705501,25 84.95040130889856,56.46506561159278,25 84.95037229524166,56.46535389097382,25 84.95039769105665,56.46538987044071,25 84.95039110548397,56.46553618487913,25 84.95034913986862,56.46557813103677,25 84.95034963983201,56.46581042230483,25 84.95038087901598,56.46581701732927,25 84.95037332164577,56.46598261073987,25 84.9489518302321,56.46595047140286,25 84.94896642155199,56.46579851636544,25 84.95006590482457,56.46581310215188,25 84.95007274342432,56.46561444314044,25 84.94989382273687,56.46560752634547,25 84.94989835132665,56.46549586611941,25 84.94987776844981,56.46548950696866,25 84.94988081851857,56.46536352220168,25 84.94990182587989,56.46535756550851,25 84.94991994109431,56.46528673486263,25 84.95009946777472,56.46529101833916,25 84.95010147750433,56.46506960871475,25 84.94901066501498,56.46505129500375,25 84.94901523956233,56.46487534963953,25 84.9493402989732,56.46488318066403,25 84.9493427694902,56.46486644697174,25 84.94947690474287,56.46487256986371,25 84.94946664865226,56.46488991142228,25 84.95010014494538,56.46489930240279,25 84.95010023154539,56.46488233571394,25 84.95020648722343,56.46488784690406,25 84.95021623747162,56.46490891778544,25 84.95043875396389,56.4649126211407,25 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>3 здания</name>
+			<Placemark>
+				<name>Здание 1</name>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.95174985189912,56.45780233588365,9 84.95176133243227,56.45757438551966,9 84.95209353681098,56.45759866027044,9 84.95209248821044,56.45780774674268,9 84.95174985189912,56.45780233588365,9 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Здание 2</name>
+				<styleUrl>#msn_ylw-pushpin20</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.95206719864423,56.45826969393212,9 84.95170830464608,56.45825939558301,9 84.95172019965473,56.45805271680084,9 84.95206902927542,56.45806214012585,9 84.95206719864423,56.45826969393212,9 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Здание 3</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								84.95172127279841,56.45855914637332,9 84.9520454492057,56.45857261076026,9 84.95203562631998,56.45875916198564,9 84.95169632985369,56.45874685784173,9 84.95172127279841,56.45855914637332,9 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
